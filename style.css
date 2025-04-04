@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.project-card{
+    margin-bottom: 20px;
+}
+body {
+    background:#e397ff;
+    color:#e397ff;
+    text-align: center;
+}
+header {
+    background: #000000;
+    padding: 15px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color:#e397ff;
+    text-decoration: none;
+}
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000000, #000000);
+    color: #222;
+}
+.hero span {
+    color: #e397ff;
+    font-weight: bold;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.btn {
+    background: #b0b0b0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #e83e50;
+}
+.about, .projects, .contact {
+    padding: 50px;
+    background: #000000;
+}
+.projects h2{
+    margin-bottom:30px;
+}
+.about h2{
+
+    margin-bottom: 30px;
+}
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card {
+    background: #c5c5c5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    border: #111 solid 2px;
+}
+footer {
+    background: #111;
+    padding: 10px;
+}
+.hi{
+    color: #e397ff;
+    font-weight: bold;
+}
+.to{
+    color: #ca42ff;
+
+}
